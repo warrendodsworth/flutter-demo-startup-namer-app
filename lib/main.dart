@@ -86,6 +86,7 @@ class _RandomWordsState extends State<RandomWords> {
         final alreadySaved = _saved.contains(_suggestions[index]);
 
         return ListTile(
+          iconColor: Colors.blueAccent,
           title: Text(
             _suggestions[index].asPascalCase,
             style: _biggerFont,

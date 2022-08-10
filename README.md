@@ -1,6 +1,10 @@
 # startup_namer
 
-A new Flutter project created from a Codelab
+A new Flutter project created from a Google Codelab
+
+- Single file app
+- Covers Widgets, Nagivation and AppBar Theme changes
+- Completed Jul 2022
 
 Codelab 1 - infinite list of random names -
 https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/#3
