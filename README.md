@@ -1,19 +1,22 @@
 # Write your first Flutter app
 
 A new Flutter project created from a Google Codelab
+This project is a starting point for a Flutter application.
 
 Codelabs: https://docs.flutter.dev/codelabs
 
-Basic: https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
+## Basic:
+
+https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
 
 - Covers Widgets, Nagivation and AppBar Theme changes
 - Completed Jul 2022
 
-## Getting Started
+## Advanced:
 
-This project is a starting point for a Flutter application.
+- Adds animated history of words to Home page.
 
-A few resources to get you started if this is your first Flutter project:
+## Resources
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

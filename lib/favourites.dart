@@ -7,6 +7,7 @@ class FavoritesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var appState = context.watch<MyAppState>();
+    var color = Theme.of(context).colorScheme;
 
     if (appState.favorites.isEmpty) {
       return Center(
@@ -30,7 +31,10 @@ class FavoritesScreen extends StatelessWidget {
             ),
             for (var pair in appState.favorites)
               ListTile(
-                  leading: Icon(Icons.favorite),
+                  leading: Icon(
+                    Icons.favorite,
+                    color: color.primary,
+                  ),
                   title: Text('${pair.first} ${pair.second}'),
                   trailing: IconButton(
                     icon: Icon(Icons.cancel_outlined),
