@@ -1,16 +1,13 @@
-# startup_namer
+# Write your first Flutter app
 
 A new Flutter project created from a Google Codelab
 
-- Single file app
+Codelabs: https://docs.flutter.dev/codelabs
+
+Basic: https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
+
 - Covers Widgets, Nagivation and AppBar Theme changes
 - Completed Jul 2022
-
-Codelab 1 - infinite list of random names -
-https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/#3
-
-Codelab 2 - favourites page and theme update -
-https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/#0
 
 ## Getting Started
 

@@ -1,6 +1,7 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
+// Deprecated codelab page
 /// This widget Was created as part of an example from the Flutter docs, the old version of Generate Random words.
 class RandomWords extends StatefulWidget {
   const RandomWords({Key? key}) : super(key: key);
