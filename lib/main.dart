@@ -2,6 +2,7 @@ import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:startup_namer/favourites.dart';
+import 'package:startup_namer/signup.dart';
 
 import 'home.dart';
 
@@ -23,7 +24,12 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         ),
-        home: MyHomePage(),
+        // home: MyHomePage(),
+        routes: {
+          '/': (_) => MyHomePage(),
+          '/signup': (_) => SignUpScreen(),
+          '/welcome': (_) => WelcomeScreen(),
+        },
       ),
     );
   }

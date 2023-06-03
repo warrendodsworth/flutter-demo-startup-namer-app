@@ -18,6 +18,10 @@ https://dartpad.dev/?id=e7076b40fb17a0fa899f9f7a154a02e8
 
 - Adds animated history of words to Home page.
 
+## Web specific tutorial
+
+https://docs.flutter.dev/get-started/codelab-web
+
 ## Resources
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
