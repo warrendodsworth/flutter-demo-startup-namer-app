@@ -24,9 +24,9 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
         ),
-        // home: MyHomePage(),
+        home: AppComponent(),
         routes: {
-          '/': (_) => MyHomePage(),
+          // '/': (_) => MyHomePage(),
           '/signup': (_) => SignUpScreen(),
           '/welcome': (_) => WelcomeScreen(),
         },
@@ -68,12 +68,12 @@ class MyAppState extends ChangeNotifier {
 }
 
 // App component
-class MyHomePage extends StatefulWidget {
+class AppComponent extends StatefulWidget {
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<AppComponent> createState() => _AppComponentState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _AppComponentState extends State<AppComponent> {
   var selectedIndex = 0;
 
   @override
